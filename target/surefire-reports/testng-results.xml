@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-07T14:08:18 CST" name="FullRegressionSuite" finished-at="2025-03-07T14:08:41 CST" duration-ms="23156">
+    <groups>
+    </groups>
+    <test started-at="2025-03-07T14:08:18 CST" name="Positive Login Tests" finished-at="2025-03-07T14:08:32 CST" duration-ms="14153">
+      <class name="com.practicetestautomation.tests.login.PositiveLoginTests">
+        <test-method signature="testLoginFunctionality()[pri:0, instance:com.practicetestautomation.tests.login.PositiveLoginTests@619713e5]" started-at="2025-03-07T14:08:18 CST" name="testLoginFunctionality" finished-at="2025-03-07T14:08:32 CST" duration-ms="14136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginFunctionality -->
+      </class> <!-- com.practicetestautomation.tests.login.PositiveLoginTests -->
+    </test> <!-- Positive Login Tests -->
+    <test started-at="2025-03-07T14:08:32 CST" name="Negative Login Tests" finished-at="2025-03-07T14:08:41 CST" duration-ms="8942">
+      <class name="com.practicetestautomation.tests.login.NegativeLoginTests">
+        <test-method signature="incorrectPasswordTest()[pri:0, instance:com.practicetestautomation.tests.login.NegativeLoginTests@595b007d]" started-at="2025-03-07T14:08:32 CST" name="incorrectPasswordTest" finished-at="2025-03-07T14:08:36 CST" duration-ms="4049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incorrectPasswordTest -->
+        <test-method signature="incorrectUsernameTest()[pri:0, instance:com.practicetestautomation.tests.login.NegativeLoginTests@595b007d]" started-at="2025-03-07T14:08:36 CST" name="incorrectUsernameTest" finished-at="2025-03-07T14:08:41 CST" duration-ms="4889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incorrectUsernameTest -->
+      </class> <!-- com.practicetestautomation.tests.login.NegativeLoginTests -->
+    </test> <!-- Negative Login Tests -->
+  </suite> <!-- FullRegressionSuite -->
+</testng-results>
