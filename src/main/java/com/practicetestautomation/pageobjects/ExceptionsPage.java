@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class ExceptionsPage extends BasePage{
+    //Below are my private elements
     private By addButtonLocator = By.id("add_btn");
     private By editButtonLocator = By.id("edit_btn");
     private By row1InputField = By.xpath("//div[@id='row1']/input");
