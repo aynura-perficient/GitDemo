@@ -8,7 +8,7 @@ public class SuccessfullLoginPage extends BasePage{
 
         public SuccessfullLoginPage(WebDriver driver){
            super(driver);
-           System.out.println("This is test");
+           System.out.println("This is an addition");
         }
 
     public boolean isLoutButtonDisplayed(){
